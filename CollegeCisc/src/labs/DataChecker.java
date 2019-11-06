@@ -55,7 +55,7 @@ public class DataChecker {
 		double header = arr[0];
 		if(header == 0) {
 			throw new Exception("*** Error (line "+ idx + "): Header value of 0 - average can't be taken");
-		}
+		}//
 		else if(header < 0) {
 			throw new Exception("*** Error (line "+ idx + "): Corrupt line - negative header value");
 		}
