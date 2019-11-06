@@ -1,0 +1,3 @@
+weiss     puppy2    woof-woof
+arnow     java      cuppa
+sokol     brooklyn  college

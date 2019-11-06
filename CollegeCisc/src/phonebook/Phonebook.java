@@ -16,9 +16,6 @@ public class Phonebook {
 			String filename = "phonebook.txt";
 			Scanner in = new Scanner(new File(filename));
 
-			/*catch(IOException e) {
-
-		}*/
 			PhonebookEntry[] entry = new PhonebookEntry[SIZE];
 			int numElts = read(entry,in);
 			int lookup = 0;
